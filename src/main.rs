@@ -95,7 +95,7 @@ fn main() {
             gl.delete_shader(shader);
         }
 
-        gl.use_program(Some(program));
+        // gl.use_program(Some(program));
         gl.clear_color(0.1, 0.2, 0.3, 1.0);
 
         event_loop.run(move |event, _, control_flow| {
@@ -128,6 +128,5 @@ fn main() {
             }
         });
 
-        fn addIn
     }
 }
